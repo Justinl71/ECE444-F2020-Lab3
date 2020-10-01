@@ -9,11 +9,12 @@ from wtforms.validators import Required, Email
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
 moment = Moment(app)
-app.config['SECRET_KEY'] = 'hard to guess string!'
+app.config['SECRET_KEY'] = 'hard to guess string'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
     form = NameForm()
+    
     if form.validate_on_submit():
         old_name = session.get('name')
         old_email = session.get('email')
@@ -23,11 +24,12 @@ def index():
         if old_email is not None and old_email != form.email.data:
             flash('Looks like you have changed your email!')
         if(form.email.data.find('utoronto') != -1):
-            session['email'] = form.email.data
+            session['email'] = 'Your UofT email is '+form.email.data
         else:
-            session['email'] = ''
+            session['email'] = 'Please use your Uoft email.'
+
         return redirect(url_for('index'))
-    return render_template('index.html', form = form, name = session.get('name'), email = session.get('email'))
+    return render_template('index.html', form = form, name = session.get('name'), email = session.get('email'), wrong_email = session.get('wrong_email'))
     
 @app.route('/user/<name>')
 def user(name):
