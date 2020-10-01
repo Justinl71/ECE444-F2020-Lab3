@@ -7,7 +7,7 @@ Activity 1:
 
 Activity 2:
 
-![alt text](https://github.com/Justinl71/ECE444-F2020-Lab3/blob/master/ECE444_lab3_2.PNG "Activity 2 screenshot 1")
+![alt text](https://github.com/Justinl71/ECE444-F2020-Lab3/blob/master/ECE444_lab3_2_fix.PNG "Activity 2 screenshot 1")
 ![alt text](https://github.com/Justinl71/ECE444-F2020-Lab3/blob/master/ECE444_lab3_3.PNG "Activity 2 screenshot 2")
 ![alt text](https://github.com/Justinl71/ECE444-F2020-Lab3/blob/master/ECE444_lab3_4.PNG "Activity 2 screenshot 3")
 ![alt text](https://github.com/Justinl71/ECE444-F2020-Lab3/blob/master/ECE444_lab3_5.PNG "Activity 2 screenshot 4")
