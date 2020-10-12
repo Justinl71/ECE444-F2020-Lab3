@@ -16,5 +16,6 @@ How to build and start system:
 2) Clone this repo and use "lab4_Microservice_Experiment" branch
 3) To build image run command: docker build -t flask-sample . 
 3) To run container run command: docker run -it --name flask-sample --rm -p 5000:5000 flask-sample
+4) Go to http://localhost:5000/ on your browser (I used host='0.0.0.0' in my hello.py code and yet it runs on localhost, image above also says its running on 0.0.0.0:5000. Same issue in https://piazza.com/class/kex3t31ft2w54h?cid=120)
 
 Activity 3:
