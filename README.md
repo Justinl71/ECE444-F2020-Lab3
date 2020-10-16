@@ -19,3 +19,4 @@ How to build and start system:
 4) Go to http://localhost:5000/ on your browser (I used host='0.0.0.0' in my hello.py code and yet it runs on localhost, image above also says its running on 0.0.0.0:5000. Same issue in https://piazza.com/class/kex3t31ft2w54h?cid=120)
 
 Activity 3:
+A VM gets its own set of resources allocated to it, which leads to a heavier application, but with more isolation. On the other hand, by using docker there is less isolation, however, each container is lightweight and requires fewer resources. This allows many containers to run on the same system with ease. Another difference is in the ease of deploying a consistant environment. Docker allows users to take snapshots of their OS into an image and can share their production environment quickly and easily. 
