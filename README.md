@@ -3,7 +3,7 @@ this repo is a clone of
 https://github.com/miguelgrinberg/flasky
 
 
-Activity 2:
+Activity 1 & 2:
 
 ![alt text](https://github.com/Justinl71/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ECE444_lab4_1.PNG "Activity 2 screenshot 1")
 ![alt text](https://github.com/Justinl71/ECE444-F2020-Lab3/blob/lab4_Microservice_Experiment/ECE444_lab4_2.PNG "Activity 2 screenshot 2")
